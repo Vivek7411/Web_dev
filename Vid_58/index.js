@@ -31,3 +31,12 @@ ans=sum(2,0);
 console.log(ans);
 ans=sum(2,'viv');
 console.log(ans);
+
+
+const func1 = (x)=> {
+
+    console.log("this is a arrow finction " + x);
+}
+
+func1('vivek');
+func1(22);
