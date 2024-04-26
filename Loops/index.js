@@ -40,6 +40,7 @@ let i =1;
 
 for(key1 in newobj){
     
-    console.log("key ",i," is ", key1," and its value is : ",newobj[key1]);
+    // console.log("key ",i," is ", key1," and its value is : ",newobj[key1]);
+    console.log(`key ${i} is ${key1} and its vlaue is ${newobj[key1]}`);  // template litrel.
     i++;
 }
