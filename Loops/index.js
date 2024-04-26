@@ -29,3 +29,17 @@ let namMara = "Vivek Nehra";
 for (const i of namMara) {
     console.log(i);
 }
+
+const newobj={
+    nam : "vivek",
+    issue : 'low bp',
+    kam : 'padhae'
+}
+
+let i =1;
+
+for(key1 in newobj){
+    
+    console.log("key ",i," is ", key1," and its value is : ",newobj[key1]);
+    i++;
+}
